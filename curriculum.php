@@ -6,7 +6,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rehan.Education - Facilitators</title>
+    <title>Rehan.Education - Curriculum</title>
     <style>
         * {
             margin: 0;
@@ -47,31 +47,26 @@ session_start();
         .nav-links a:hover {
             color: #ffd700;
         }
-        .facilitators {
+        .curriculum {
             max-width: 1200px;
             margin: 100px auto;
             padding: 20px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
         }
-        .facilitator-card {
+        .curriculum h1 {
+            text-align: center;
+            color: #1e3a8a;
+            margin-bottom: 30px;
+        }
+        .curriculum-section {
             background: white;
             padding: 20px;
+            margin-bottom: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            text-align: center;
         }
-        .facilitator-card h3 {
+        .curriculum-section h2 {
             color: #1e3a8a;
-            margin-bottom: 10px;
-        }
-        .facilitator-card a {
-            color: #3b82f6;
-            text-decoration: none;
-        }
-        .facilitator-card a:hover {
-            text-decoration: underline;
+            margin-bottom: 15px;
         }
         footer {
             background: #111;
@@ -83,7 +78,7 @@ session_start();
             .nav-links {
                 display: none;
             }
-            .facilitators h1 {
+            .curriculum h1 {
                 font-size: 28px;
             }
         }
@@ -103,22 +98,19 @@ session_start();
             </div>
         </nav>
     </header>
-    <section class="facilitators">
-        <h1>Our Facilitators</h1>
-        <div class="facilitator-card">
-            <h3>John Doe</h3>
-            <p>Expert in AI and Machine Learning</p>
-            <p><a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+    <section class="curriculum">
+        <h1>Our Innovative Curriculum</h1>
+        <div class="curriculum-section">
+            <h2>Digital Skills</h2>
+            <p>Learn web development, graphic design, and digital marketing to thrive in the digital era.</p>
         </div>
-        <div class="facilitator-card">
-            <h3>Jane Smith</h3>
-            <p>Specialist in Digital Marketing</p>
-            <p><a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+        <div class="curriculum-section">
+            <h2>AI Tools Proficiency</h2>
+            <p>Master AI-driven tools to create innovative solutions and enhance productivity.</p>
         </div>
-        <div class="facilitator-card">
-            <h3>Mike Johnson</h3>
-            <p>Online Teaching Expert</p>
-            <p><a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+        <div class="curriculum-section">
+            <h2>Online Teaching Methodologies</h2>
+            <p>Develop skills to create engaging online courses and inspire learners worldwide.</p>
         </div>
     </section>
     <footer>
